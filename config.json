@@ -1,0 +1,30 @@
+{
+  "assets": {
+    "ninite": { "url": "https://github.com/BlueStreak79/Setup/raw/main/Ninite.exe", "sha256": "", "maxMB": 30 },
+    "office": { "url": "https://github.com/BlueStreak79/Setup/raw/main/365.exe",    "sha256": "", "maxMB": 30 }
+  },
+  "debloat": { "url": "", "sha256": "" },
+  "winrar":  { "keyPath": "" },
+  "winget":  { "packages": [] },
+  "settings": {
+    "timezone": "India Standard Time",
+    "lightTheme": true,
+    "showDesktopIcons": true,
+    "taskbarSearchIconOnly": true,
+    "explorerOpensThisPC": true,
+    "hideQuickAccessHistory": true
+  },
+  "hosts": { "tag": "toolkit", "domains": [] },
+  "diagnostics": {
+    "tools": [
+      { "key": "1", "name": "AquaKeyTest",     "url": "https://github.com/BlueStreak79/Diagnostics/raw/main/AquaKeyTest.exe",     "sha256": "" },
+      { "key": "2", "name": "BatteryInfoView", "url": "https://github.com/BlueStreak79/Diagnostics/raw/main/BatteryInfoView.exe", "sha256": "" },
+      { "key": "3", "name": "Camera",          "url": "https://github.com/BlueStreak79/Diagnostics/raw/main/Camera.exe",          "sha256": "" },
+      { "key": "4", "name": "lusrmgr",         "url": "https://github.com/BlueStreak79/Diagnostics/raw/main/lusrmgr.exe",         "sha256": "" },
+      { "key": "5", "name": "MemTest64",       "url": "https://github.com/BlueStreak79/Diagnostics/raw/main/MemTest64.exe",       "sha256": "" },
+      { "key": "6", "name": "LCDtest",         "url": "https://github.com/BlueStreak79/Diagnostics/raw/main/LCDtest.exe",         "sha256": "" },
+      { "key": "7", "name": "OemKey",          "url": "https://github.com/BlueStreak79/Diagnostics/raw/main/OemKey.exe",          "sha256": "" },
+      { "key": "8", "name": "ShowKeyPlus",     "url": "https://github.com/BlueStreak79/Diagnostics/raw/main/ShowKeyPlus.exe",     "sha256": "" }
+    ]
+  }
+}
